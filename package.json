@@ -1,0 +1,27 @@
+{
+  "name": "@aabenoja/styled-enzyme",
+  "version": "0.1.0",
+  "description": "Enzyme helpers for styled components",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=production babel src -d lib",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "enzyme": "*",
+    "styled-components": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "jest": "^22.4.3",
+    "react": "^16.3.2",
+    "styled-components": "^3.2.6"
+  }
+}
