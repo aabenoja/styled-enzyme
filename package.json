@@ -1,5 +1,5 @@
 {
-  "name": "@aabenoja/styled-enzyme",
+  "name": "styled-enzyme",
   "version": "0.1.0",
   "description": "Enzyme helpers for styled components",
   "main": "lib/index.js",
