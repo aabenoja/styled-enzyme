@@ -1,6 +1,7 @@
 import React from 'react';
-import { init, mountWithTheme } from './index';
 import styled from 'styled-components';
+import { init } from './init';
+import mountWithTheme from './mountWithTheme';
 
 const defaultTheme = { backgroundColor: 'red', color: 'blue' };
 const customTheme = { backgroundColor: 'blue', color: 'red' };
