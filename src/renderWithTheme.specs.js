@@ -1,7 +1,9 @@
 import React from 'react';
-import { init, renderWithTheme } from './index';
 import styled from 'styled-components';
 import 'jest-styled-components';
+
+import { init } from './init';
+import renderWithTheme from './renderWithTheme';
 
 const defaultTheme = { color: 'blue' };
 const customTheme = { color: 'red' };
