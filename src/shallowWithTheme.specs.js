@@ -1,5 +1,6 @@
 import React from 'react';
-import { init, shallowWithTheme } from './index';
+import { init } from './index';
+import shallowWithTheme from './shallowWithTheme';
 import styled from 'styled-components';
 
 const defaultTheme = { color: 'blue' };
