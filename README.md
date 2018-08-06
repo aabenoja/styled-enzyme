@@ -37,6 +37,15 @@ const shallowDefault = shallowWithTheme(instance);
 const customShallow = shallowWithTheme(instance, customTheme);
 ```
 
+A convenient `shallow` alias for `shallowWithTheme` has been provided.
+
+```js
+import { shallow } from 'styled-enzyme';
+
+const shallowDefault = shallow(instance);
+const customShallow = shallow(instance, customTheme);
+```
+
 ### mountWithTheme
 
 Fully renders your component with the default theme using enzyme's `mount()` function.
@@ -50,6 +59,15 @@ const mountedDefault = mountWithTheme(instance);
 const mountedCustom = mountWithTheme(instance, customTheme);
 ```
 
+A convenient `mount` alias for `mountWithTheme` has been provided.
+
+```js
+import { mount } from 'styled-enzyme';
+
+const mountedDefault = mount(instance);
+const mountedCustom = mount(instance, customTheme);
+```
+
 ### renderWithTheme
 
 Create a json snapshot using `react-test-renderer` with the default theme. If you want to
@@ -60,4 +78,13 @@ import { renderWithTheme } from 'styled-enzyme';
 
 const themedSnapshot = renderWithTheme(instance);
 const customThemedSnapshot = renderWithTheme(instance, customTheme);
+```
+
+A convenient `render` alias for `renderWithTheme` has been provided.
+
+```js
+import { render } from 'styled-enzyme';
+
+const themedSnapshot = render(instance);
+const customThemedSnapshot = render(instance, customTheme);
 ```
