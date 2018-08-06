@@ -2,10 +2,10 @@
   "name": "styled-enzyme",
   "version": "0.1.0",
   "description": "Enzyme helpers for styled components",
-  "main": "lib/index.js",
+  "main": "dist.js",
   "scripts": {
-    "build": "BABEL_ENV=production babel src -d lib",
-    "publishOnly": "npm run build", 
+    "build": "rollup src/index.js --config rollup.config.js",
+    "publishOnly": "npm run build",
     "test": "jest src/"
   },
   "jest": {
@@ -34,6 +34,8 @@
     "react": "^16.3.2",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^3.0.7",
     "styled-components": "^3.2.6"
   }
 }
