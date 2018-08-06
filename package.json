@@ -1,6 +1,6 @@
 {
   "name": "styled-enzyme",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Enzyme helpers for styled components",
   "main": "dist.js",
   "scripts": {
