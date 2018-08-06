@@ -5,7 +5,7 @@
   "main": "dist.js",
   "scripts": {
     "build": "rollup src/index.js --config rollup.config.js",
-    "publishOnly": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "jest src/"
   },
   "jest": {
